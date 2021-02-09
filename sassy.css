@@ -1,4 +1,4 @@
-/* I am aware that this code does not work but it's more to practice Sass */
+/* I am aware that this code does not work but it's more to practice Sass 
 $text-color: red;
 
 @mixin border-radius($radius){
@@ -29,6 +29,12 @@ $text-color: red;
 
 @each $color in blue, black, red {
     .#{$color}-bg {background-color: $color;}
+}
+
+$x: 1;
+@while $x < 6 {
+    .text-#{$x} { font-size: 15px * $x;}
+    $x: $x + 1;
 }
 
 #box {
@@ -65,3 +71,5 @@ div {
         font-size: 20px;
     }
 }
+
+*/

@@ -1,4 +1,6 @@
 /* I am aware that this code does not work but it's more to practice Sass 
+@import 'variables'
+
 $text-color: red;
 
 @mixin border-radius($radius){

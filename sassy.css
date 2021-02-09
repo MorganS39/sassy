@@ -4,7 +4,14 @@ $text-color: red;
     text-align: center;
 }
 .blog-post {
-     h2 {
+    h1 {
+        text-align: center;
+        color: blue;
+    }
+    h2 {
         color: $text-color;
-     }
+    }
+    p {
+        font-size: 20px;
+    }
 }
